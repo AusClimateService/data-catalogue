@@ -1,12 +1,26 @@
-data1:
-    description: first test dataset
-
-    Project: xv83
-    Maintained By: ACS
-    Contact: thomas.moore@csiro.au
-    Documentation: Documentation txt
-    License: license txt
-    References: references txt
-    driver: intake_esm.esm_datastore
-    args:
-        esmcol_obj: '{{CATALOG_DIR}}/erai/catalogue.json'
+description: root catalogue for ACS test
+metadata: {'title':'txt','title2':'txt2'}
+sources:
+    ccam_noresm2_mm_historical_aus_10i_12km:
+        description: ccam_noresm2-mm_historical_aus-10i_12km
+        Project: xv83
+        Maintained By: maintainer txt
+        Contact: thomas.moore@csiro.au
+        Documentation: documentation txt
+        License: license txt
+        References: references txt
+        driver: intake_esm.esm_datastore
+        args:
+            esmcol_obj: '/g/data/v14/tm4888/code/ACS/data-catalogue/catalogues/nested_test/ccam_noresm2-mm_historical_aus-10i_12km/ccam_noresm2-mm_historical_aus-10i_12km.json'
+        
+    ccam_noresm2_mm_ssp126_aus_10i_12km:
+        description: ccam_noresm2-mm_ssp126_aus-10i_12km
+        Project: xv83
+        Maintained By: maintainer txt
+        Contact: thomas.moore@csiro.au
+        Documentation: documentation txt
+        License: license txt
+        References: references txt
+        driver: intake_esm.esm_datastore
+        args:
+            esmcol_obj: '/g/data/v14/tm4888/code/ACS/data-catalogue/catalogues/nested_test/ccam_noresm2-mm_ssp126_aus-10i_12km/ccam_noresm2-mm_ssp126_aus-10i_12km.json'
