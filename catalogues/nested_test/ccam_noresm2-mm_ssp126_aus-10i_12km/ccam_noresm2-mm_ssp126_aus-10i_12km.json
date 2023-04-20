@@ -74,5 +74,5 @@
   "description": null,
   "title": null,
   "last_updated": "2023-04-17T06:22:09Z",
-  "catalog_file": "file:///home/599/tm4888//intake-catalogues/ccam_noresm2-mm_ssp126_aus-10i_12km.csv"
+  "catalog_file": "/g/data/v14/tm4888/code/ACS/data-catalogue/catalogues/nested_test/ccam_noresm2-mm_historical_aus-10i_12km/ccam_noresm2-mm_ssp126_aus-10i_12km.csv"
 }
