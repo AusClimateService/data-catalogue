@@ -1,2 +1,2 @@
 # data-catalogue
-Documentation and discussion of the initial scoping work for a proposed ACS intake data catalogue.
+Documentation, code, and discussion for the initial scoping work on a proposed ACS intake data catalogue.
