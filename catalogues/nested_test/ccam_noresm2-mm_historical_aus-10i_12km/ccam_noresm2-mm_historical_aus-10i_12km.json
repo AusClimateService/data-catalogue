@@ -70,9 +70,9 @@
       }
     ]
   },
-  "id": "/intake-catalogues/test-CCAM-catalogue",
+  "id": "ccam_noresm2-mm_historical_aus-10i_12km.csv",
   "description": null,
   "title": null,
   "last_updated": "2023-02-17T04:18:44Z",
-  "catalog_file": "/g/data/v14/tm4888/code/ACS/data-catalogue/catalogues/nested_test/ccam_noresm2-mm_historical_aus-10i_12km/ccam_noresm2-mm_historical_aus-10i_12km.csv"
+  "catalog_file": "ccam_noresm2-mm_historical_aus-10i_12km.csv"
 }
