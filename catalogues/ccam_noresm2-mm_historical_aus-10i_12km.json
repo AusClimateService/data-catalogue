@@ -1,0 +1,78 @@
+{
+  "esmcat_version": "0.0.1",
+  "attributes": [
+    {
+      "column_name": "variable",
+      "vocabulary": ""
+    },
+    {
+      "column_name": "domain",
+      "vocabulary": ""
+    },
+    {
+      "column_name": "host_GCM",
+      "vocabulary": ""
+    },
+    {
+      "column_name": "run_type",
+      "vocabulary": ""
+    },
+    {
+      "column_name": "host_ensemble",
+      "vocabulary": ""
+    },
+    {
+      "column_name": "downscale_model",
+      "vocabulary": ""
+    },
+    {
+      "column_name": "downscale_version",
+      "vocabulary": ""
+    },
+    {
+      "column_name": "period",
+      "vocabulary": ""
+    },
+    {
+      "column_name": "time_period",
+      "vocabulary": ""
+    },
+    {
+      "column_name": "path",
+      "vocabulary": ""
+    }
+  ],
+  "assets": {
+    "column_name": "path",
+    "format": "netcdf",
+    "format_column_name": null
+  },
+  "aggregation_control": {
+    "variable_column_name": "variable",
+    "groupby_attrs": [
+      "domain",
+      "host_GCM",
+      "run_type",
+      "host_ensemble",
+      "downscale_model",
+      "downscale_version",
+      "period"
+    ],
+    "aggregations": [
+      {
+        "type": "join_existing",
+        "attribute_name": "date",
+        "options": {
+          "dim": "time",
+          "coords": "minimal",
+          "compat": "override"
+        }
+      }
+    ]
+  },
+  "id": "ccam_noresm2-mm_historical_aus-10i_12km",
+  "description": null,
+  "title": null,
+  "last_updated": "2023-05-19T04:42:00Z",
+  "catalog_file": "file:///g/data/v14/tm4888/code/ACS/data-catalogue/catalogues/ccam_noresm2-mm_historical_aus-10i_12km.csv"
+}
