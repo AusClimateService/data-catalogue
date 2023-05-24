@@ -57,6 +57,10 @@ Example workflows that show how individual sub-catalogues could be built and mai
 
 Example workflow that shows how a root ACS catalogue could be built and maintained that nests individual sub-catalogues.
 
+### Environment
+An `ACS-demo-environment` is provided.  Note current ( as of May 2023 ) issue with needing to pin `netcdf4` to 1.6.0
+https://github.com/AusClimateService/data-catalogue/blob/main/ACS-demo-environment.yml
+
 # References:
 
 Repo: [https://github.com/AusClimateService/data-catalogue](https://github.com/AusClimateService/data-catalogue)
