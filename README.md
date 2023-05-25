@@ -21,6 +21,11 @@ The catalogue will initially provide data tools and accompanying tutorial docume
 - A “root” catalogue that will nest all the sub-catalogues to be built using `intake-dataframe-catalog`.
 - Build and maintain documentation & workflow demos for users.
 
+## Important considerations
+
+- The usefulness and power of the “root level” search completely depends on the metadata choices added to the `intake-dataframe-catalog`.
+- All ACS data products need to follow a standard “controlled vocabulary” for metadata like variables and time periods.  If this isn’t followed then the translation problem would require tools and a process.
+
 ## ACS data governance framework
 
 The approach should be informed by the principles that will underpin the ACS data governance framework being developed by the ACS Data Governance Group:
